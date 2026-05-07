@@ -1,5 +1,8 @@
 # FediLoRA: Heterogeneous LoRA for Federated Multimodal Fine-tuning under Missing Modalities
 
+> **Accepted by IJCAI 2026 AI and Health track. This repository is keeping updating... Please feel free to email lishan.yang@adelaide.edu.au or wei.e.zhang@adelaide.edu.au**
+
+
 <p align="center">
   <img src="paper_materials/fedilora_framework2.png" alt="FediLoRA framework" width="90%">
 </p>
@@ -11,7 +14,7 @@
 
 ## IJCAI 2026 Announcement
 
-FediLoRA has been accepted by IJCAI 2026. Thanks to all collaborators, reviewers, and the open-source community supporting federated multimodal learning research.
+FediLoRA has been accepted by the **IJCAI 2026 AI and Health track**. Thanks to all collaborators, reviewers, and the open-source community supporting federated multimodal learning research.
 
 This repository contains the code for **FediLoRA: Heterogeneous LoRA for Federated Multimodal Fine-tuning under Missing Modalities**. The paper studies federated fine-tuning for multimodal foundation models when clients have different compute budgets and incomplete modalities. FediLoRA introduces heterogeneous LoRA ranks, dimension-wise aggregation for LoRA updates, and lightweight layer-wise model editing to improve both global and personalized performance under missing text or image information.
 
