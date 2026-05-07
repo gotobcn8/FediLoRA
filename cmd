@@ -1,0 +1,3 @@
+python vllm.py --global_model llava7b --data_path data_recaps --output_dir llava-recaps-10/ --num_communication_rounds 2 --local_num_epochs 1 --full False --num_clients 2 --zero_padding True --stacking False --heter True --algo hetlora --mini False
+
+python vllm.py --global_model llava7b --data_path data_recaps --output_dir llava-recaps-10/ --num_communication_rounds 2 --local_num_epochs 1 --num_clients 2 --heter True --algo hetlora --mini True --file_format recap_
